@@ -1,0 +1,5 @@
+#import "XMLDocument.h"
+
+@implementation XMLDocument
+
+@synthesize documentPath;

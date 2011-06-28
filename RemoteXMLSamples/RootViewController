@@ -1,0 +1,10 @@
+#import "XMLDocument.h"
+
+@interface RootViewController : UIViewControlller <XMLDocumentDelegate> {
+@public
+  XMLDocument *xmlDocument;
+}
+
+@property (nonatomic, retain) XMLDocument *xmlDocument;
+
+@end
