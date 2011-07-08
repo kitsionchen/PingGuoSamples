@@ -1,0 +1,13 @@
+#import <Foundation/Foundation.h>
+#import "Tray.h"
+
+@interface Printer : NSObject <TrayProtocol> {
+@public
+  Tray *paperTray;
+}
+
+@property (nonatomic, retain) Tray *paperTray;
+
+- (BOOL) printPaperWithText:(NSString *)paramText
+             numberOfCopies:(NSUInteger)paramNumberOfCopies;
+@end

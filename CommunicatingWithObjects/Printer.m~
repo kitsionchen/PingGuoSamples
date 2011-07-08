@@ -1,0 +1,16 @@
+#import "Printer.h"
+
+@implementation Printer
+
+@synthesize paperTray;
+
+- (id) init {
+  self = [super init];
+  if (self != nil) {
+    Tray *newTray = [[Tray alloc] initWithPrinter:self];
+    paperTray = [newTray retain];
+    [newTray release];
+  }
+  return self;
+}
+
