@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FD51FD13C9FC2D002AE6FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD51FC13C9FC2D002AE6FD /* UIKit.framework */; };
+		41FD51FF13C9FC2D002AE6FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD51FE13C9FC2D002AE6FD /* Foundation.framework */; };
+		41FD520113C9FC2D002AE6FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD520013C9FC2D002AE6FD /* CoreGraphics.framework */; };
+		41FD520713C9FC2D002AE6FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41FD520513C9FC2D002AE6FD /* InfoPlist.strings */; };
+		41FD520A13C9FC2D002AE6FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FD520913C9FC2D002AE6FD /* main.m */; };
+		41FD520D13C9FC2D002AE6FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FD520C13C9FC2D002AE6FD /* AppDelegate.m */; };
+		41FD521013C9FC2D002AE6FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FD520E13C9FC2D002AE6FD /* MainWindow.xib */; };
+		41FD521813CA034F002AE6FD /* QLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FD521713CA034F002AE6FD /* QLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41FD51F813C9FC2D002AE6FD /* MVCNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FD51FC13C9FC2D002AE6FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41FD51FE13C9FC2D002AE6FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41FD520013C9FC2D002AE6FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41FD520413C9FC2D002AE6FD /* MVCNetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCNetworking-Info.plist"; sourceTree = "<group>"; };
+		41FD520613C9FC2D002AE6FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41FD520813C9FC2D002AE6FD /* MVCNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVCNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		41FD520913C9FC2D002AE6FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FD520B13C9FC2D002AE6FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41FD520C13C9FC2D002AE6FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41FD520F13C9FC2D002AE6FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		41FD521613CA034F002AE6FD /* QLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLog.h; sourceTree = "<group>"; };
+		41FD521713CA034F002AE6FD /* QLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41FD51F513C9FC2D002AE6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FD51FD13C9FC2D002AE6FD /* UIKit.framework in Frameworks */,
+				41FD51FF13C9FC2D002AE6FD /* Foundation.framework in Frameworks */,
+				41FD520113C9FC2D002AE6FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41FD51ED13C9FC2C002AE6FD = {
+			isa = PBXGroup;
+			children = (
+				41FD520213C9FC2D002AE6FD /* MVCNetworking */,
+				41FD51FB13C9FC2D002AE6FD /* Frameworks */,
+				41FD51F913C9FC2D002AE6FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41FD51F913C9FC2D002AE6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FD51F813C9FC2D002AE6FD /* MVCNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FD51FB13C9FC2D002AE6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FD51FC13C9FC2D002AE6FD /* UIKit.framework */,
+				41FD51FE13C9FC2D002AE6FD /* Foundation.framework */,
+				41FD520013C9FC2D002AE6FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41FD520213C9FC2D002AE6FD /* MVCNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				41FD520B13C9FC2D002AE6FD /* AppDelegate.h */,
+				41FD520C13C9FC2D002AE6FD /* AppDelegate.m */,
+				41FD520E13C9FC2D002AE6FD /* MainWindow.xib */,
+				41FD520313C9FC2D002AE6FD /* Supporting Files */,
+				41FD521613CA034F002AE6FD /* QLog.h */,
+				41FD521713CA034F002AE6FD /* QLog.m */,
+			);
+			path = MVCNetworking;
+			sourceTree = "<group>";
+		};
+		41FD520313C9FC2D002AE6FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FD520413C9FC2D002AE6FD /* MVCNetworking-Info.plist */,
+				41FD520513C9FC2D002AE6FD /* InfoPlist.strings */,
+				41FD520813C9FC2D002AE6FD /* MVCNetworking-Prefix.pch */,
+				41FD520913C9FC2D002AE6FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41FD51F713C9FC2D002AE6FD /* MVCNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FD521313C9FC2D002AE6FD /* Build configuration list for PBXNativeTarget "MVCNetworking" */;
+			buildPhases = (
+				41FD51F413C9FC2D002AE6FD /* Sources */,
+				41FD51F513C9FC2D002AE6FD /* Frameworks */,
+				41FD51F613C9FC2D002AE6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCNetworking;
+			productName = MVCNetworking;
+			productReference = 41FD51F813C9FC2D002AE6FD /* MVCNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FD51EF13C9FC2C002AE6FD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41FD51F213C9FC2C002AE6FD /* Build configuration list for PBXProject "MVCNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41FD51ED13C9FC2C002AE6FD;
+			productRefGroup = 41FD51F913C9FC2D002AE6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FD51F713C9FC2D002AE6FD /* MVCNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41FD51F613C9FC2D002AE6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FD520713C9FC2D002AE6FD /* InfoPlist.strings in Resources */,
+				41FD521013C9FC2D002AE6FD /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FD51F413C9FC2D002AE6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FD520A13C9FC2D002AE6FD /* main.m in Sources */,
+				41FD520D13C9FC2D002AE6FD /* AppDelegate.m in Sources */,
+				41FD521813CA034F002AE6FD /* QLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41FD520513C9FC2D002AE6FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FD520613C9FC2D002AE6FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41FD520E13C9FC2D002AE6FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FD520F13C9FC2D002AE6FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41FD521113C9FC2D002AE6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41FD521213C9FC2D002AE6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		41FD521413C9FC2D002AE6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCNetworking/MVCNetworking-Prefix.pch";
+				INFOPLIST_FILE = "MVCNetworking/MVCNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41FD521513C9FC2D002AE6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCNetworking/MVCNetworking-Prefix.pch";
+				INFOPLIST_FILE = "MVCNetworking/MVCNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FD51F213C9FC2C002AE6FD /* Build configuration list for PBXProject "MVCNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FD521113C9FC2D002AE6FD /* Debug */,
+				41FD521213C9FC2D002AE6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FD521313C9FC2D002AE6FD /* Build configuration list for PBXNativeTarget "MVCNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FD521413C9FC2D002AE6FD /* Debug */,
+				41FD521513C9FC2D002AE6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41FD51EF13C9FC2C002AE6FD /* Project object */;
+}
