@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41582AD113CF3DC800E2ED42 /* Photos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41582ACF13CF3DC800E2ED42 /* Photos.xcdatamodeld */; };
+		41582AD613CF400400E2ED42 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41582AD513CF400400E2ED42 /* Photo.m */; };
+		41582AD913CF419400E2ED42 /* Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 41582AD813CF419400E2ED42 /* Thumbnail.m */; };
+		415CFA7E13D09E570001A896 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CFA7D13D09E570001A896 /* NetworkManager.m */; };
+		419681FB13CC7B2700376911 /* QLogViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 419681FA13CC7B2700376911 /* QLogViewer.m */; };
+		4196820513CC815400376911 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196820413CC815400376911 /* libz.dylib */; };
+		4196820713CC815C00376911 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196820613CC815C00376911 /* MessageUI.framework */; };
+		4196820913CC816500376911 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196820813CC816500376911 /* SystemConfiguration.framework */; };
+		4196820B13CC817700376911 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196820A13CC817700376911 /* CoreData.framework */; };
+		41A8225813D30D4C008AB892 /* QRunLoopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A8225713D30D4C008AB892 /* QRunLoopOperation.m */; };
 		41FD51FD13C9FC2D002AE6FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD51FC13C9FC2D002AE6FD /* UIKit.framework */; };
 		41FD51FF13C9FC2D002AE6FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD51FE13C9FC2D002AE6FD /* Foundation.framework */; };
 		41FD520113C9FC2D002AE6FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD520013C9FC2D002AE6FD /* CoreGraphics.framework */; };
@@ -18,6 +28,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41582AD013CF3DC800E2ED42 /* Photos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photos.xcdatamodel; sourceTree = "<group>"; };
+		41582AD413CF400400E2ED42 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		41582AD513CF400400E2ED42 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		41582AD713CF419400E2ED42 /* Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnail.h; sourceTree = "<group>"; };
+		41582AD813CF419400E2ED42 /* Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnail.m; sourceTree = "<group>"; };
+		415CFA7C13D09E570001A896 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		415CFA7D13D09E570001A896 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		419681F813CC7A6100376911 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		419681F913CC7B2700376911 /* QLogViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLogViewer.h; sourceTree = "<group>"; };
+		419681FA13CC7B2700376911 /* QLogViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLogViewer.m; sourceTree = "<group>"; };
+		4196820413CC815400376911 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4196820613CC815C00376911 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4196820813CC816500376911 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4196820A13CC817700376911 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		41A8225613D30D4C008AB892 /* QRunLoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRunLoopOperation.h; sourceTree = "<group>"; };
+		41A8225713D30D4C008AB892 /* QRunLoopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRunLoopOperation.m; sourceTree = "<group>"; };
 		41FD51F813C9FC2D002AE6FD /* MVCNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FD51FC13C9FC2D002AE6FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41FD51FE13C9FC2D002AE6FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4196820B13CC817700376911 /* CoreData.framework in Frameworks */,
+				4196820913CC816500376911 /* SystemConfiguration.framework in Frameworks */,
+				4196820713CC815C00376911 /* MessageUI.framework in Frameworks */,
+				4196820513CC815400376911 /* libz.dylib in Frameworks */,
 				41FD51FD13C9FC2D002AE6FD /* UIKit.framework in Frameworks */,
 				41FD51FF13C9FC2D002AE6FD /* Foundation.framework in Frameworks */,
 				41FD520113C9FC2D002AE6FD /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +77,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41582AD313CF3DD400E2ED42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41582ACF13CF3DC800E2ED42 /* Photos.xcdatamodeld */,
+				41582AD413CF400400E2ED42 /* Photo.h */,
+				41582AD513CF400400E2ED42 /* Photo.m */,
+				41582AD713CF419400E2ED42 /* Thumbnail.h */,
+				41582AD813CF419400E2ED42 /* Thumbnail.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		415CFA7A13D09E370001A896 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				415CFA7C13D09E570001A896 /* NetworkManager.h */,
+				415CFA7D13D09E570001A896 /* NetworkManager.m */,
+				41A8225613D30D4C008AB892 /* QRunLoopOperation.h */,
+				41A8225713D30D4C008AB892 /* QRunLoopOperation.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		419681F613CC7A2A00376911 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				41FD521613CA034F002AE6FD /* QLog.h */,
+				41FD521713CA034F002AE6FD /* QLog.m */,
+				419681F813CC7A6100376911 /* logging.h */,
+				419681F913CC7B2700376911 /* QLogViewer.h */,
+				419681FA13CC7B2700376911 /* QLogViewer.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
 		41FD51ED13C9FC2C002AE6FD = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +132,10 @@
 		41FD51FB13C9FC2D002AE6FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4196820413CC815400376911 /* libz.dylib */,
+				4196820613CC815C00376911 /* MessageUI.framework */,
+				4196820813CC816500376911 /* SystemConfiguration.framework */,
+				4196820A13CC817700376911 /* CoreData.framework */,
 				41FD51FC13C9FC2D002AE6FD /* UIKit.framework */,
 				41FD51FE13C9FC2D002AE6FD /* Foundation.framework */,
 				41FD520013C9FC2D002AE6FD /* CoreGraphics.framework */,
@@ -77,12 +146,13 @@
 		41FD520213C9FC2D002AE6FD /* MVCNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				415CFA7A13D09E370001A896 /* Networking */,
+				41582AD313CF3DD400E2ED42 /* Model */,
+				419681F613CC7A2A00376911 /* Logging */,
 				41FD520B13C9FC2D002AE6FD /* AppDelegate.h */,
 				41FD520C13C9FC2D002AE6FD /* AppDelegate.m */,
 				41FD520E13C9FC2D002AE6FD /* MainWindow.xib */,
 				41FD520313C9FC2D002AE6FD /* Supporting Files */,
-				41FD521613CA034F002AE6FD /* QLog.h */,
-				41FD521713CA034F002AE6FD /* QLog.m */,
 			);
 			path = MVCNetworking;
 			sourceTree = "<group>";
@@ -160,6 +230,12 @@
 				41FD520A13C9FC2D002AE6FD /* main.m in Sources */,
 				41FD520D13C9FC2D002AE6FD /* AppDelegate.m in Sources */,
 				41FD521813CA034F002AE6FD /* QLog.m in Sources */,
+				419681FB13CC7B2700376911 /* QLogViewer.m in Sources */,
+				41582AD113CF3DC800E2ED42 /* Photos.xcdatamodeld in Sources */,
+				41582AD613CF400400E2ED42 /* Photo.m in Sources */,
+				41582AD913CF419400E2ED42 /* Thumbnail.m in Sources */,
+				415CFA7E13D09E570001A896 /* NetworkManager.m in Sources */,
+				41A8225813D30D4C008AB892 /* QRunLoopOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +340,23 @@
 				41FD521513C9FC2D002AE6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41582ACF13CF3DC800E2ED42 /* Photos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41582AD013CF3DC800E2ED42 /* Photos.xcdatamodel */,
+			);
+			currentVersion = 41582AD013CF3DC800E2ED42 /* Photos.xcdatamodel */;
+			name = Photos.xcdatamodeld;
+			path = MVCNetworking.xcodeproj/Photos.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 41FD51EF13C9FC2C002AE6FD /* Project object */;
 }
